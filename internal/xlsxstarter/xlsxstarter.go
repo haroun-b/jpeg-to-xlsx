@@ -19,7 +19,7 @@ the structure of an uncompressed xlsx file is as follows:
 	|- _rels
 		|- workbook.xml.rels
 
-the only files we need to modify are xl/styles.xml and xl/worksheets/sheet1.xml. the reset can be copied as is.
+the only files we need to modify are xl/styles.xml and xl/worksheets/sheet1.xml. the rest can be copied as is.
 */
 
 func CreateXLSXStarter(path string) error {
